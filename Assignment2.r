@@ -19,7 +19,7 @@ df1<- data.frame(sqldf('SELECT communities,SUM(Year_re) AS Year_re FROM df GROUP
 print(df1)
 
 #------------------------------------------#
-bar_plot <- gvisBarChart(df1,options = list(height=1800, width=1500))
+bar_plot <- gvisBarChart(df1,options = list(height=2000, width=1500))
 plot(bar_plot)
 
 #------------------------------------------#
